@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@font-face {
+    font-family: futurak;
+    src: url(../assest/fonts/futurak.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --red: #ed1c24;
+    --white: #ffffff;
+    --black: #000000;
+    --green: #28a745;
+    --grey: #0f0f0f;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-none {
+    text-decoration: none;
+}
+
+.text-red {
+    color: var(--red);
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-arround {
+    justify-content: space-around;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.border {
+    border: 1px solid var(--white);
+}
+
+.gap-5 {
+    gap: 25px;
+}
+
+.radius-btn {
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 12px 26px;
+}
+.mx-1 {
+    margin-top: 200px;
+}
+
+.heading-font {
+    font-family: futurak;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: white;
+}
